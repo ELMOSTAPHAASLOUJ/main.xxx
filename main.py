@@ -4,10 +4,10 @@ import streamlit as st
 import pandas as pd
 
 # Loading the saved models
-ventes1 = pickle.load(open('ventes.pkl', 'rb'))
-ventes2 = pickle.load(open('ventes2.pkl', 'rb'))
-ventes3 = pickle.load(open('ventes3.pkl', 'rb'))
-ventes4 = pickle.load(open('ventes4.pkl', 'rb'))
+ventes1 = pickle.load(open('ventes111.pkl', 'rb'))
+ventes2 = pickle.load(open('ventes222.pkl', 'rb'))
+ventes3 = pickle.load(open('ventes333.pkl', 'rb'))
+ventes4 = pickle.load(open('ventes444.pkl', 'rb'))
 
 # Creating a function for Prediction
 def pred(ventes, ID, Demande):
